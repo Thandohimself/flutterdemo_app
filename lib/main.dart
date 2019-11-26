@@ -14,10 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Image(
-          image: NetworkImage(
-              'https://images.unsplash.com/photo-1574786527860-f2e274867c91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2002&q=80'),
-        ),
+        child: Image.asset('assets/thando.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
