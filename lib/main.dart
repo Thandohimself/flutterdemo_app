@@ -13,11 +13,11 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.green[600],
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.adb),
-        ),
+      body: Container(
+        color: Colors.teal[100],
+        child: Text('Thando'),
+        padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+        margin: EdgeInsets.all(100.0),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
