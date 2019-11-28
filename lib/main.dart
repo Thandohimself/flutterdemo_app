@@ -14,7 +14,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Image.asset('assets/thando.jpg'),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.amber,
+          size: 50.0,
+
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
