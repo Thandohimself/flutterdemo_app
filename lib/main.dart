@@ -13,11 +13,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.green[600],
       ),
-      body: Container(
-        color: Colors.teal[100],
+      body: Padding(
+        padding: EdgeInsets.all(90.0),
         child: Text('Thando'),
-        padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-        margin: EdgeInsets.all(100.0),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
