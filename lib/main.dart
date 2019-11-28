@@ -14,15 +14,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: RaisedButton.icon(
-          onPressed: () {
-            print("Thando pressed");
-          },
-          icon: Icon(
-              Icons.ac_unit
-          ),
-          label: Text('Mail me'),
-          color: Colors.tealAccent,
+        child: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.adb),
         ),
       ),
       floatingActionButton: FloatingActionButton(
