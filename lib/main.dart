@@ -14,20 +14,33 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text('Hello Thando'),
-          FlatButton(
-            onPressed: () {},
-            color: Colors.amber,
-            child: Text('Click Click'),
-
+          Expanded(
+              flex: 3,
+              child: Image.asset("assets/thando.jpg")),
+          Expanded(
+            flex: 3,
+            child: Container(
+              padding: const EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text('1'),
+            ),
           ),
-          Container(
-            color: Colors.cyan,
-            padding: EdgeInsets.all(30.0),
-            child: Text('Inside container'),
+          Expanded(
+            flex: 2,
+            child: Container(
+              padding: const EdgeInsets.all(30.0),
+              color: Colors.amber[900],
+              child: Text('2'),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: const EdgeInsets.all(30.0),
+              color: Colors.amber[50],
+              child: Text('3'),
+            ),
           )
         ],
       ),
